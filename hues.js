@@ -43,6 +43,7 @@ if(deg.value == ""){
 
 done.addEventListener("click",()=>{
     GrndArea.style.background = `linear-gradient(${deg.value}deg,${firstColor.value},${ScndColor.value})`
+    grndimp.textContent = "Here You Go";
 })
 
 setInterval(()=>{
