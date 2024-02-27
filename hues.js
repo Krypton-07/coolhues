@@ -34,6 +34,7 @@ let ScndColor = document.getElementById("second-color");
 let done = document.getElementById("done");
 let GrndArea = document.getElementById("gradient-area");
 let deg = document.getElementById("deg");
+let grndimp = document.getElementById("grnd-impression");
 
 if(deg.value == ""){
     deg.value = 90;
