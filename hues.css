@@ -262,7 +262,10 @@ footer a{
     color: white;
 }
 #grnd-impression{
-    text-align: center;
+    display: none;
+}
+.grndimp{
+       text-align: center;
     margin-top: 30px;
     background: linear-gradient(
         90deg,
@@ -271,4 +274,5 @@ footer a{
     );
     padding: 10px;
     color: var(--primary-color);
-    }
+    display: block;
+}
