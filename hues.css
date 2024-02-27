@@ -261,3 +261,14 @@ footer a{
     text-decoration: none;
     color: white;
 }
+#grnd-impression{
+    text-align: center;
+    margin-top: 30px;
+    background: linear-gradient(
+        90deg,
+        cyan,
+        black
+    );
+    padding: 10px;
+    color: var(--primary-color);
+    }
