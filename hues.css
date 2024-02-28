@@ -273,3 +273,8 @@ footer a{
     color: var(--primary-color);
     display: block;
 }
+footer a:hover{
+    color: rgba(0,0,0,0.4);
+    padding: 2.5px;
+    border-bottom: 2px solid white;
+}
