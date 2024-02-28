@@ -260,21 +260,55 @@ footer{
 footer a{
     text-decoration: none;
     color: white;
-}
-.grndimp{
-    text-align: center;
-    margin-top: 30px;
-    background: linear-gradient(
-        90deg,
-        cyan,
-        black
-    );
-    padding: 10px;
-    color: var(--primary-color);
-    display: block;
+    transition: all 0.5s;
 }
 footer a:hover{
     color: rgba(0,0,0,0.4);
     padding: 2.5px;
     border-bottom: 2px solid white;
+}
+.fa-gear{
+    position: relative;
+    display: block;
+    left: 50%;
+    font-size: 30px;
+    transform: translate(-50%,0);
+    margin-top: 20px;
+    animation: colored-gear 2s infinite ease-in-out;
+    color: var(--secondary-color);
+}
+@keyframes colored-gear {
+    0%{
+        color: gold;
+        position: relative;
+        left: 50%;
+        transform: translate(-50%,0) rotate(0deg);
+        font-size: 40px;
+    }
+    25%{
+        color: red;
+        position: relative;
+        left: 50%;
+        transform: translate(-50%,0) (450deg);
+    }
+    50%{
+        color: green;
+        position: relative;
+        left: 50%;
+        transform: translate(-50%,0) rotate(900deg);
+        font-size: 65px;
+    }
+    75%{
+        color: cyan;
+        position: relative;
+        left: 50%;
+        transform: translate(-50%,0) rotate(1350deg);
+    }
+    100%{
+        color: blue;
+        position: relative;
+        left: 50%;
+        transform: translate(-50%,0) rotate(1800deg);
+        font-size: 40px;
+    }
 }
